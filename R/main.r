@@ -142,7 +142,7 @@ elmat |>
         alphacolor = "white"
     ) |>
     rayshader::add_shadow(
-        rayshader::lamb_shadow(
+        rayshader::lamb_shade(
             elmat,
             zscale = 50,
             sunaltitude = 90,
